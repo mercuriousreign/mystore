@@ -1,7 +1,8 @@
+import "./DCard.css"
 function DCard(props) {
   const { head, title, description } = props;
   return (
-    <div>
+    <div className="DCard">
       <h1>{head}</h1>
       <h1>{title}</h1>
       <p>{description}</p>
